@@ -1,0 +1,20 @@
+.style-responsive-left {
+    width: 40%;
+}
+ .style-responsive-center {
+    width: 15%;
+ }
+ .style-responsive-right {
+    width: 45%;
+ }
+@media (max-width:1200px) {
+    .style-responsive-left {
+        width: 100%;
+    }
+    .style-responsive-center {
+        width: 100%;
+     }
+     .style-responsive-right {
+        width:100%;
+     }
+}
